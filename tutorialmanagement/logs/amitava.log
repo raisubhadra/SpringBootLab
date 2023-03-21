@@ -1,0 +1,21 @@
+2023-03-21 17:17:08.213  INFO 48696 --- [main] e.t.TutorialmanagementApplication        : Starting TutorialmanagementApplication using Java 17.0.6 on DESKTOP-A457NUK with PID 48696 (C:\Users\chetn\eclipse-workspace\Sts-march2023\sts-4.17.2.RELEASE\Projects 2023\tutorialmanagement\target\classes started by chetn in C:\Users\chetn\eclipse-workspace\Sts-march2023\sts-4.17.2.RELEASE\Projects 2023\tutorialmanagement)
+2023-03-21 17:17:08.217  INFO 48696 --- [main] e.t.TutorialmanagementApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 17:17:09.762  INFO 48696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-21 17:17:09.853  INFO 48696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2023-03-21 17:17:10.832  INFO 48696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2023-03-21 17:17:10.851  INFO 48696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-21 17:17:10.852  INFO 48696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-21 17:17:11.100  INFO 48696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-21 17:17:11.101  INFO 48696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2786 ms
+2023-03-21 17:17:11.166  INFO 48696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-21 17:17:11.666  INFO 48696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-21 17:17:11.684  INFO 48696 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gunjan'
+2023-03-21 17:17:11.914  INFO 48696 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-21 17:17:12.050  INFO 48696 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-21 17:17:12.559  INFO 48696 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-21 17:17:12.869  INFO 48696 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-21 17:17:13.889  INFO 48696 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-21 17:17:13.912  INFO 48696 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-21 17:17:14.895  WARN 48696 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-21 17:17:15.658  INFO 48696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2023-03-21 17:17:15.692  INFO 48696 --- [main] e.t.TutorialmanagementApplication        : Started TutorialmanagementApplication in 8.3 seconds (JVM running for 9.912)
